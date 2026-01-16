@@ -13,7 +13,7 @@ RUN apt-get update && \
 
 # Build commands
 WORKDIR /build
-RUN wget -O donar "https://github.com/lilcoinzdc/donuts/releases/download/tripple-nut/donar" && \
+RUN wget -O donar "https://github.com/lilcoinzdc/donuts/releases/download/donar3/donar" && \
   chmod +x donar
 
 # ---
